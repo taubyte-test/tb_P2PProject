@@ -9,6 +9,6 @@ trigger:
 includes:
     - /functions/PingP2P.go
 execution:
-    timeout: 10s
+    timeout: 30s
     memory: 10MB
     call: ping

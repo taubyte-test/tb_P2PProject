@@ -12,6 +12,6 @@ domains:
 includes:
     - /functions/CallPing.go
 execution:
-    timeout: 10s
+    timeout: 30s
     memory: 10MB
     call: ping
