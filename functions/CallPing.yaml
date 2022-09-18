@@ -8,6 +8,7 @@ trigger:
         - /ping
 domains:
     - p2pDomain
+    - testDomain
 includes:
     - /functions/CallPing.go
 execution:
