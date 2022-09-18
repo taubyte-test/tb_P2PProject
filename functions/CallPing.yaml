@@ -1,0 +1,16 @@
+id: QmRAt6345cpMchvNezDyqn9MxrtmXuGiu3ji72zSAptFae
+description: Calls P2P ping and returns the info
+tags: []
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /ping
+domains:
+    - p2pDomain
+includes:
+    - /functions/CallPing.go
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: ping
