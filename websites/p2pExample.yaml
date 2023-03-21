@@ -3,11 +3,9 @@ description: ""
 tags: []
 domains:
     - p2pDomain
-    - testDomain
 source:
     paths:
         - /
-    includes: []
     branch: main
     github:
         id: 537133071

@@ -9,7 +9,6 @@ trigger:
         - /ping
 domains:
     - p2pDomain
-    - testDomain
 execution:
     timeout: 30s
     memory: 10MB
