@@ -5,7 +5,7 @@ source: .
 trigger:
     type: p2p
     command: ping
-    local: false
+    service: /test/v1
 execution:
     timeout: 30s
     memory: 10MB
