@@ -1,13 +1,11 @@
 id: QmSxVYL5urSqRj624n2sxPhcXZMqppdpHup9SLWF9hxxNX
 description: Returns pong to a ping over p2p
 tags: []
+source: .
 trigger:
     type: p2p
     command: ping
     local: false
-    service: /test/v1
-includes:
-    - /functions/PingP2P.go
 execution:
     timeout: 30s
     memory: 10MB

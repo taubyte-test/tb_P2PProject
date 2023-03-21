@@ -4,7 +4,6 @@ tags: []
 domains:
     - p2pDomain
     - testDomain
-libraries: []
 source:
     paths:
         - /
