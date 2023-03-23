@@ -10,6 +10,6 @@ trigger:
 domains:
     - p2pDomain
 execution:
-    timeout: 30s
+    timeout: 2s
     memory: 10MB
     call: ping
